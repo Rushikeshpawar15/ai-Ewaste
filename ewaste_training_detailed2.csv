@@ -1,0 +1,334 @@
+query,label
+mobile,mobile phone
+cellphone,mobile phone
+smartphone,mobile phone
+android phone,mobile phone
+iphone,mobile phone
+redmi,mobile phone
+mi phone,mobile phone
+samsung phone,mobile phone
+nokia mobile,mobile phone
+oppo phone,mobile phone
+vivo phone,mobile phone
+oneplus phone,mobile phone
+realme phone,mobile phone
+google pixel,mobile phone
+handset,mobile phone
+cell,mobile phone
+apple iphone,mobile phone
+mi smartphone,mobile phone
+xiaomi phone,mobile phone
+blackberry,mobile phone
+sony xperia,mobile phone
+motorola phone,mobile phone
+lenovo phone,mobile phone
+asus phone,mobile phone
+htc phone,mobile phone
+lava phone,mobile phone
+micromax phone,mobile phone
+infinix phone,mobile phone
+tecno phone,mobile phone
+poco phone,mobile phone
+mobile handset,mobile phone
+feature phone,mobile phone
+flip phone,mobile phone
+touch phone,mobile phone
+mobile device,mobile phone
+basic phone,mobile phone
+windows phone,mobile phone
+cellular device,mobile phone
+mobile gadget,mobile phone
+portable phone,mobile phone
+mobile terminal,mobile phone
+laptop,laptop
+notebook,laptop
+macbook,laptop
+dell laptop,laptop
+hp laptop,laptop
+lenovo laptop,laptop
+asus laptop,laptop
+acer laptop,laptop
+msi laptop,laptop
+surface laptop,laptop
+chromebook,laptop
+thinkpad,laptop
+ideapad,laptop
+gaming laptop,laptop
+ultrabook,laptop
+workstation laptop,laptop
+toshiba laptop,laptop
+fujitsu laptop,laptop
+samsung laptop,laptop
+apple macbook,laptop
+macbook pro,laptop
+macbook air,laptop
+business laptop,laptop
+student laptop,laptop
+office laptop,laptop
+portable computer,laptop
+personal computer,laptop
+notebook pc,laptop
+computer laptop,laptop
+windows laptop,laptop
+linux laptop,laptop
+budget laptop,laptop
+premium laptop,laptop
+lappy,laptop
+old laptop,laptop
+second hand laptop,laptop
+refurbished laptop,laptop
+broken laptop,laptop
+damaged laptop,laptop
+battery,battery
+lithium battery,battery
+li-ion battery,battery
+nickel battery,battery
+rechargeable battery,battery
+power cell,battery
+phone battery,battery
+laptop battery,battery
+aa battery,battery
+aaa battery,battery
+9v battery,battery
+button cell,battery
+coin battery,battery
+car battery,battery
+inverter battery,battery
+ups battery,battery
+power bank,battery
+camera battery,battery
+tablet battery,battery
+old battery,battery
+used battery,battery
+damaged battery,battery
+portable battery,battery
+spare battery,battery
+replacement battery,battery
+rechargeable cell,battery
+alkaline battery,battery
+lead acid battery,battery
+nickel cadmium battery,battery
+nickel metal hydride battery,battery
+tv,television
+television,television
+smart tv,television
+led tv,television
+lcd tv,television
+oled tv,television
+plasma tv,television
+crt tv,television
+flat screen tv,television
+big screen tv,television
+hd tv,television
+4k tv,television
+8k tv,television
+color tv,television
+old tv,television
+used tv,television
+broken tv,television
+damaged tv,television
+sony tv,television
+samsung tv,television
+lg tv,television
+panasonic tv,television
+philips tv,television
+toshiba tv,television
+sharp tv,television
+mi tv,television
+tcl tv,television
+vu tv,television
+onida tv,television
+motorola tv,television
+curved tv,television
+android tv,television
+internet tv,television
+projector tv,television
+flat panel tv,television
+display screen,television
+home theatre screen,television
+charger,charger
+phone charger,charger
+mobile charger,charger
+usb charger,charger
+laptop charger,charger
+adapter,charger
+charging adapter,charger
+ac adapter,charger
+power adapter,charger
+wall charger,charger
+travel charger,charger
+fast charger,charger
+quick charger,charger
+wireless charger,charger
+type c charger,charger
+micro usb charger,charger
+lightning charger,charger
+dc adapter,charger
+tablet charger,charger
+camera charger,charger
+portable charger,charger
+power brick,charger
+charging block,charger
+charging cable,charger
+plug adapter,charger
+universal charger,charger
+replacement charger,charger
+damaged charger,charger
+broken charger,charger
+keyboard,keyboard
+computer keyboard,keyboard
+pc keyboard,keyboard
+laptop keyboard,keyboard
+usb keyboard,keyboard
+wireless keyboard,keyboard
+bluetooth keyboard,keyboard
+mechanical keyboard,keyboard
+gaming keyboard,keyboard
+standard keyboard,keyboard
+multimedia keyboard,keyboard
+numeric keyboard,keyboard
+mini keyboard,keyboard
+portable keyboard,keyboard
+foldable keyboard,keyboard
+ergonomic keyboard,keyboard
+qwerty keyboard,keyboard
+typewriter keyboard,keyboard
+old keyboard,keyboard
+broken keyboard,keyboard
+damaged keyboard,keyboard
+apple keyboard,keyboard
+logitech keyboard,keyboard
+hp keyboard,keyboard
+dell keyboard,keyboard
+lenovo keyboard,keyboard
+razer keyboard,keyboard
+corsair keyboard,keyboard
+printer,printer
+inkjet printer,printer
+laser printer,printer
+dot matrix printer,printer
+3d printer,printer
+thermal printer,printer
+photo printer,printer
+color printer,printer
+black and white printer,printer
+wireless printer,printer
+usb printer,printer
+network printer,printer
+office printer,printer
+all in one printer,printer
+multifunction printer,printer
+scanner printer,printer
+plotter printer,printer
+mini printer,printer
+portable printer,printer
+label printer,printer
+canon printer,printer
+hp printer,printer
+epson printer,printer
+brother printer,printer
+samsung printer,printer
+ricoh printer,printer
+xerox printer,printer
+old printer,printer
+used printer,printer
+damaged printer,printer
+broken printer,printer
+refrigerator,refrigerator
+fridge,refrigerator
+mini fridge,refrigerator
+double door fridge,refrigerator
+single door fridge,refrigerator
+side by side fridge,refrigerator
+french door fridge,refrigerator
+top freezer fridge,refrigerator
+bottom freezer fridge,refrigerator
+lg fridge,refrigerator
+samsung fridge,refrigerator
+whirlpool fridge,refrigerator
+godrej fridge,refrigerator
+haier fridge,refrigerator
+bosch fridge,refrigerator
+panasonic fridge,refrigerator
+toshiba fridge,refrigerator
+hitachi fridge,refrigerator
+ifb fridge,refrigerator
+onida fridge,refrigerator
+voltas fridge,refrigerator
+videocon fridge,refrigerator
+mini bar fridge,refrigerator
+commercial fridge,refrigerator
+industrial fridge,refrigerator
+smart fridge,refrigerator
+inverter fridge,refrigerator
+frost free fridge,refrigerator
+direct cool fridge,refrigerator
+old fridge,refrigerator
+used fridge,refrigerator
+broken fridge,refrigerator
+damaged fridge,refrigerator
+speaker,speaker
+bluetooth speaker,speaker
+wireless speaker,speaker
+soundbar,speaker
+home theatre speaker,speaker
+jbl speaker,speaker
+boat speaker,speaker
+sony speaker,speaker
+philips speaker,speaker
+portable speaker,speaker
+mini speaker,speaker
+smart speaker,speaker
+echo dot speaker,speaker
+google home speaker,speaker
+desk speaker,speaker
+car speaker,speaker
+outdoor speaker,speaker
+tower speaker,speaker
+gaming speaker,speaker
+surround sound speaker,speaker
+homepod speaker,speaker
+beats speaker,speaker
+woofer,speaker
+bass speaker,speaker
+stereo speaker,speaker
+multimedia speaker,speaker
+conference speaker,speaker
+hi-fi speaker,speaker
+retro speaker,speaker
+compact speaker,speaker
+small speaker,speaker
+budget speaker,speaker
+loudspeaker,speaker
+fabric speaker,speaker
+wooden speaker,speaker
+hdd,storage device
+ssd,storage device
+hard disk,storage device
+external hard disk,storage device
+seagate hdd,storage device
+wd hard disk,storage device
+toshiba hard disk,storage device
+usb stick,storage device
+pen drive,storage device
+flash drive,storage device
+thumb drive,storage device
+sandisk usb,storage device
+kingston usb,storage device
+transcend usb,storage device
+mini usb,storage device
+micro usb,storage device
+otg usb,storage device
+usb memory stick,storage device
+portable usb,storage device
+external ssd,storage device
+portable hdd,storage device
+data storage drive,storage device
+backup disk,storage device
+used usb,storage device
+second hand hdd,storage device
+refurbished usb,storage device
+usb 2.0,storage device
+usb 3.0,storage device
+usb 3.1,storage device
+usb c drive,storage device

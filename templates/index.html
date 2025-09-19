@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-Powered E-Waste Guide</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♻</text></svg>"
+    />
+    <link rel="stylesheet" href="static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>♻ AI-Powered E-Waste Recycling Guide</h2>
+
+      <!-- Split layout: Left inputs + Right result -->
+      <div class="container-body">
+        <!-- Left Panel -->
+        <div class="left-panel">
+          <!-- Text Input Section -->
+          <div class="section">
+            <h3>Text Query</h3>
+            <input
+              type="text"
+              id="itemInput"
+              placeholder="Enter electronic item..."
+              autofocus
+            />
+            <button onclick="searchText()">Search</button>
+          </div>
+
+          <div class="divider"><span>OR</span></div>
+
+          <!-- Image Upload Section -->
+          <div class="section">
+            <h3>Image Upload</h3>
+            <input type="file" id="imageInput" accept="image/*" />
+            <button onclick="searchImage()">Find</button>
+          </div>
+        </div>
+
+        <!-- Right Panel (Result) -->
+        <div id="result" class="result"></div>
+      </div>
+    </div>
+
+    <script>
+      async function searchText() {
+        const item = document.getElementById("itemInput").value.trim();
+        if (!item) return;
+
+        try {
+          const response = await fetch("/predict", {
+            method: "POST",
+            body: new URLSearchParams({ query: item }),
+          });
+          const data = await response.json();
+          displayResult(data);
+        } catch (error) {
+          displayResult({ error: "Error fetching data" });
+        }
+
+        document.getElementById("itemInput").value = "";
+      }
+
+      async function searchImage() {
+        const fileInput = document.getElementById("imageInput");
+        if (fileInput.files.length === 0) return;
+
+        const formData = new FormData();
+        formData.append("file", fileInput.files[0]);
+
+        try {
+          const response = await fetch("/predict", {
+            method: "POST",
+            body: formData,
+          });
+          const data = await response.json();
+          displayResult(data);
+        } catch (error) {
+          displayResult({ error: "Error fetching data" });
+        }
+
+        fileInput.value = "";
+      }
+
+      function displayResult(data) {
+        const resultDiv = document.getElementById("result");
+        if (data.error) {
+          resultDiv.innerHTML = `<p class="error">${data.error}</p>`;
+          return;
+        }
+
+        let html = "";
+        if (data.type === "text") {
+          html += `<h3>${data.query.toUpperCase()}</h3>`;
+        } else {
+          html += `<h3>Image Prediction</h3>`;
+        }
+
+        html += `
+          <p><strong>Predicted Category:</strong> ${data.predicted_category}</p>
+          <p><strong>Disposal:</strong> ${data.disposal}</p>
+          <p><strong>Metals Recovered:</strong></p>
+          <ul>${data.metals.map((m) => `<li>${m}</li>`).join("")}</ul>
+          <p><strong>Hazards:</strong></p>
+          <ul>${data.hazards.map((h) => `<li>${h}</li>`).join("")}</ul>
+        `;
+
+        resultDiv.innerHTML = html;
+      }
+    </script>
+  </body>
+</html>
