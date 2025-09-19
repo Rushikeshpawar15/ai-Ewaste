@@ -1,0 +1,339 @@
+{
+  "mobile phone": {
+    "disposal": "Drop in certified e-waste bin or donate if working.",
+    "metals": ["Gold", "Silver", "Copper", "Palladium"],
+    "hazards": ["Lead", "Brominated Flame Retardants"]
+  },
+  "smartphone": {
+    "disposal": "Return to manufacturer or recycle through e-waste facility.",
+    "metals": ["Gold", "Cobalt", "Copper", "Lithium"],
+    "hazards": ["Lead", "Cadmium", "Battery Acid"]
+  },
+  "tablet": {
+    "disposal": "Donate if working, otherwise recycle at e-waste facility.",
+    "metals": ["Gold", "Lithium", "Copper"],
+    "hazards": ["Brominated Flame Retardants"]
+  },
+  "smartwatch": {
+    "disposal": "Recycle via e-waste bins or return to manufacturer.",
+    "metals": ["Lithium", "Copper", "Rare Earths"],
+    "hazards": ["Battery Acid"]
+  },
+  "fitness tracker": {
+    "disposal": "Recycle via small electronics collection.",
+    "metals": ["Lithium", "Copper"],
+    "hazards": ["Battery Leakage"]
+  },
+  "digital camera": {
+    "disposal": "Recycle at electronics collection points.",
+    "metals": ["Copper", "Silver"],
+    "hazards": ["Plastic"]
+  },
+  "camcorder": {
+    "disposal": "Recycle at e-waste centers.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Plastic"]
+  },
+  "drone": {
+    "disposal": "Recycle batteries separately. Rest goes to e-waste.",
+    "metals": ["Lithium", "Copper", "Aluminum"],
+    "hazards": ["Battery Acid", "Plastic Waste"]
+  },
+  "calculator": {
+    "disposal": "Recycle via e-waste bins.",
+    "metals": ["Copper"],
+    "hazards": ["Plastic"]
+  },
+
+  "laptop": {
+    "disposal": "Recycle through authorized e-waste recycler.",
+    "metals": ["Lithium", "Cobalt", "Rare Earth Metals", "Copper"],
+    "hazards": ["Lead", "Mercury", "Cadmium"]
+  },
+  "desktop computer": {
+    "disposal": "Send to an e-waste center or refurbish if possible.",
+    "metals": ["Aluminum", "Copper", "Steel"],
+    "hazards": ["Lead", "Cadmium"]
+  },
+  "server": {
+    "disposal": "Recycle with professional e-waste companies.",
+    "metals": ["Gold", "Silver", "Copper"],
+    "hazards": ["Lead", "Flame Retardants"]
+  },
+  "motherboard": {
+    "disposal": "Recycle at specialized e-waste facilities.",
+    "metals": ["Gold", "Silver", "Copper"],
+    "hazards": ["Lead", "Flame Retardants"]
+  },
+  "graphics card": {
+    "disposal": "Recycle via e-waste recyclers.",
+    "metals": ["Gold", "Silver", "Copper"],
+    "hazards": ["Lead"]
+  },
+  "ram": {
+    "disposal": "Recycle via electronics recycling bins.",
+    "metals": ["Gold", "Silver", "Copper"],
+    "hazards": ["Lead"]
+  },
+  "processor": {
+    "disposal": "Recycle chips and boards through e-waste channels.",
+    "metals": ["Gold", "Silicon", "Copper"],
+    "hazards": ["Lead", "Resins"]
+  },
+  "power supply unit": {
+    "disposal": "Recycle at e-waste centers.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Plastic"]
+  },
+  "cooling fan": {
+    "disposal": "Recycle metal and motor parts separately.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Plastic"]
+  },
+
+  "keyboard": {
+    "disposal": "Send to e-waste recycler. Can be refurbished if functional.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Plastic"]
+  },
+  "mouse": {
+    "disposal": "Recycle through e-waste bins.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Plastic Waste"]
+  },
+  "printer": {
+    "disposal": "Recycle at authorized e-waste center. Cartridges require special disposal.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Toner Powder", "Ink Chemicals"]
+  },
+  "scanner": {
+    "disposal": "Recycle at e-waste centers.",
+    "metals": ["Copper", "Steel"],
+    "hazards": ["Glass Waste"]
+  },
+  "photocopier": {
+    "disposal": "Recycle large office machines via professional services.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Toner Powder"]
+  },
+  "fax machine": {
+    "disposal": "Recycle at e-waste points.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Plastic"]
+  },
+  "modem": {
+    "disposal": "Recycle through electronics bins.",
+    "metals": ["Copper", "Gold"],
+    "hazards": ["Plastic"]
+  },
+  "router": {
+    "disposal": "Return to ISP or recycle.",
+    "metals": ["Copper", "Gold"],
+    "hazards": ["Plastic Waste"]
+  },
+  "switch": {
+    "disposal": "Recycle at electronics e-waste points.",
+    "metals": ["Copper", "Gold"],
+    "hazards": ["Plastic Waste"]
+  },
+
+  "television": {
+    "disposal": "Return to manufacturer take-back program or recycling center.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Lead", "Mercury", "Arsenic"]
+  },
+  "monitor": {
+    "disposal": "Recycle CRTs and LCDs separately due to different hazards.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Mercury (in LCDs)", "Lead (in CRTs)"]
+  },
+  "projector": {
+    "disposal": "Recycle lamps and electronics separately.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Mercury (in lamps)"]
+  },
+  "dvd player": {
+    "disposal": "Recycle at e-waste facilities.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Plastic"]
+  },
+  "blu-ray player": {
+    "disposal": "Recycle via e-waste bins.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Plastic"]
+  },
+  "set top box": {
+    "disposal": "Return to provider or recycle.",
+    "metals": ["Copper", "Gold"],
+    "hazards": ["Plastic"]
+  },
+  "game console": {
+    "disposal": "Recycle or donate if functional.",
+    "metals": ["Copper", "Gold"],
+    "hazards": ["Plastic Waste"]
+  },
+  "joystick": {
+    "disposal": "Recycle via e-waste.",
+    "metals": ["Copper"],
+    "hazards": ["Plastic"]
+  },
+  "vr headset": {
+    "disposal": "Recycle electronics and plastics.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Plastic"]
+  },
+  "smart glasses": {
+    "disposal": "Recycle at electronics centers.",
+    "metals": ["Copper", "Rare Earths"],
+    "hazards": ["Plastic"]
+  },
+
+  "earphones": {
+    "disposal": "Recycle via small electronics bins.",
+    "metals": ["Copper"],
+    "hazards": ["Plastic Waste"]
+  },
+  "headphones": {
+    "disposal": "Send to e-waste recycling points.",
+    "metals": ["Copper", "Magnets"],
+    "hazards": ["Plastic"]
+  },
+  "smart speaker": {
+    "disposal": "Recycle at electronics collection points.",
+    "metals": ["Copper", "Magnets"],
+    "hazards": ["Plastic"]
+  },
+  "soundbar": {
+    "disposal": "Recycle through e-waste channels.",
+    "metals": ["Copper", "Magnets"],
+    "hazards": ["Plastic"]
+  },
+  "home theater": {
+    "disposal": "Recycle through professional services.",
+    "metals": ["Copper", "Steel"],
+    "hazards": ["Plastic Waste"]
+  },
+
+  "hard disk": {
+    "disposal": "Destroy data before recycling. Send to authorized recycler.",
+    "metals": ["Aluminum", "Copper", "Rare Earth Magnets"],
+    "hazards": ["Circuit Board Chemicals"]
+  },
+  "solid state drive": {
+    "disposal": "Destroy data before recycling.",
+    "metals": ["Copper", "Gold", "Silver"],
+    "hazards": ["Circuit Board Chemicals"]
+  },
+  "usb drive": {
+    "disposal": "Recycle with small electronics.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Plastic"]
+  },
+  "memory card": {
+    "disposal": "Recycle with electronic storage devices.",
+    "metals": ["Gold", "Copper"],
+    "hazards": ["Plastic"]
+  },
+  "cd/dvd": {
+    "disposal": "Recycle through specialized plastic recycling centers.",
+    "metals": [],
+    "hazards": ["Polycarbonate Plastic"]
+  },
+  "blu-ray disc": {
+    "disposal": "Recycle at specialized facilities.",
+    "metals": [],
+    "hazards": ["Plastic Waste"]
+  },
+  "floppy disk": {
+    "disposal": "Recycle via retro-media recyclers.",
+    "metals": ["Magnetic Material"],
+    "hazards": ["Plastic"]
+  },
+
+  "led bulb": {
+    "disposal": "Recycle at lighting waste collection points.",
+    "metals": ["Aluminum"],
+    "hazards": ["Electronic Drivers"]
+  },
+  "fluorescent lamp": {
+    "disposal": "Handle with care. Contains mercury. Recycle at hazardous waste facility.",
+    "metals": ["Aluminum"],
+    "hazards": ["Mercury"]
+  },
+  "incandescent bulb": {
+    "disposal": "Recycle through glass and metal facilities.",
+    "metals": ["Tungsten"],
+    "hazards": ["Glass"]
+  },
+  "halogen lamp": {
+    "disposal": "Recycle with glass recycling.",
+    "metals": ["Tungsten"],
+    "hazards": ["Glass Waste"]
+  },
+  "street light": {
+    "disposal": "Recycle through municipal e-waste management.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Mercury (older ones)"]
+  },
+
+  "refrigerator": {
+    "disposal": "Recycle via authorized center. Must remove refrigerant gas safely.",
+    "metals": ["Aluminum", "Steel", "Copper"],
+    "hazards": ["CFCs (Chlorofluorocarbons)"]
+  },
+  "air conditioner": {
+    "disposal": "Recycle professionally. Ensure safe refrigerant removal.",
+    "metals": ["Aluminum", "Copper", "Steel"],
+    "hazards": ["HFCs", "CFCs"]
+  },
+  "washing machine": {
+    "disposal": "Recycle at large appliance e-waste facilities.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Plastic Waste"]
+  },
+  "microwave oven": {
+    "disposal": "Recycle safely due to high-voltage capacitors.",
+    "metals": ["Steel", "Copper", "Aluminum"],
+    "hazards": ["Radiation Shielding Materials"]
+  },
+  "toaster": {
+    "disposal": "Recycle via e-waste bins.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Plastic"]
+  },
+  "electric kettle": {
+    "disposal": "Recycle at small appliance collection bins.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Plastic Waste"]
+  },
+  "iron": {
+    "disposal": "Recycle through small electronics disposal centers.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Plastic"]
+  },
+  "blender": {
+    "disposal": "Recycle via e-waste collection points.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Plastic Waste"]
+  },
+  "vacuum cleaner": {
+    "disposal": "Recycle at e-waste collection bins.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Plastic Waste"]
+  },
+  "hair dryer": {
+    "disposal": "Recycle through small appliance collection.",
+    "metals": ["Copper", "Aluminum"],
+    "hazards": ["Plastic"]
+  },
+  "electric shaver": {
+    "disposal": "Recycle at e-waste facilities.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Plastic"]
+  },
+  "coffee maker": {
+    "disposal": "Recycle via e-waste recyclers.",
+    "metals": ["Steel", "Copper"],
+    "hazards": ["Plastic Waste"]
+  }
+}
